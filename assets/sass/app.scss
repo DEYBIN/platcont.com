@@ -1,0 +1,106 @@
+// Primary color: #33495f
+
+// Fuente Google
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+// Bootstrap
+$font-family-base: "Roboto", sans-serif;
+
+@import 'node_modules/bootstrap/scss/functions';
+
+$theme-colors: (
+  "primary": #33495f,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+// Header
+.header {
+	background: url(../../public/img/header.jpg) center center no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 120vh;
+}
+
+// Atributos
+.atributo:hover > .atributo--icon,
+.atributo:hover > .atributo--title{
+	transition: all 0.3s;
+	color: $green;
+}
+
+// Seccion video
+.sectionVideo{
+	background: url(../../public/img/video-back.jpg) center center no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+// Footer
+.footer--platcont-items > li > a:hover{
+	color: $green !important;
+}
+
+// Quitamos text-decoration a elemento y sus desendientes
+.text-decoration-none *,
+.text-decoration-none{
+	text-decoration: none !important;
+}
+// Ponemos text-decoration underline a elemento y sus desendientes
+.text-decoration-underline *,
+.text-decoration-underline{
+	text-decoration: underline !important;
+}
+
+// Redes Sociales Footer
+a.facebook:hover{
+	color: #3b5998 !important;
+}
+
+a.twitter:hover{
+	color: #00aced !important;
+}
+
+a.youtube:hover{
+	color: #bb0000 !important;
+}
+
+// Colores Redes Sociales
+.text-facebook{
+	color: #3b5998 !important;
+}
+.text-twitter{
+	color: #00aced !important;
+}
+.text-youtube{
+	color: #bb0000 !important;
+}
+
+// Menu Principal en tamaño medio
+@include media-breakpoint-down(md) {
+	#navbarSupportedContent {
+		background: #33495f;
+		z-index: 1000;
+		position: absolute;
+		top: 100%;
+		right: 0;
+		left: 0;
+		min-height: 100%;
+		transition: all 0s;
+		padding: 1rem;
+	}
+}
+
+// Texto Error 404
+@include media-breakpoint-down(sm) {
+	.textCodeError {
+		font-size: 10rem;
+	}
+}
+
+@include media-breakpoint-up(md) {
+	.textCodeError {
+		font-size: 20rem;
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "platcont",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "prod": "gulp --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jEchabaudis/platcont.git"
+  },
+  "author": "Deybin Yoni Gil Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jEchabaudis/platcont/issues"
+  },
+  "homepage": "https://gitlab.com/jEchabaudis/platcont#README",
+  "devDependencies": {
+    "bootstrap": "^4.1.0",
+    "gulp": "^3.9.1",
+    "jquery": "^3.3.1",
+    "laravel-elixir": "^6.0.0-18"
+  },
+  "dependencies": {}
+}

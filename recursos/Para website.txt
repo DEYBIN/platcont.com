@@ -1,0 +1,11 @@
+Necesitareamos la siguiente informacion para la pagina web:
+
+1. Descripcion de lo que hace la empresa
+2. Servicios que se brinda
+3. Datos de contacto:
+correo electronico
+direccion
+telefono - celular
+4. Link de las redes sociales
+5. Vision y Mision(opcional)
+6. Si ya tienes proyectos seria bueno ponerlos tambien en la pagina, en ese caso necesitaria una descripcion de cada proyecto y una imagen

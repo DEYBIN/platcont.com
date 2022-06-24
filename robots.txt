@@ -1,0 +1,3 @@
+User-Agent: *
+Sitemap: http://platcont.com/sitemap.xml
+Allow: /
